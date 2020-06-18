@@ -1,0 +1,106 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 140px;
+}
+
+header p {
+    color: #87909A;
+    font-size: 12px;
+    letter-spacing: 6px; 
+}
+
+header div {
+    color: #9A9A9A;
+    margin-bottom: 108px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #00C9CC;
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+.iconboxes {
+    text-align: center;
+}
+
+.iconbox {
+    width: 230px;
+    background-color: #F7F7F7;
+    display: inline-block
+
+}
+
+.icon {
+    width: 66px;
+    height: 66px;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    background-repeat: no-repeat;
+}
+
+.icon1 {
+    background-image: url(../img/anchor-black.png); 
+}
+
+.icon2 {
+    background-image: url(../img/diamond-black.png);
+}
+
+.icon3 {
+    background-image: url(../img/eyeglasses-black.png);
+}
+
+.icon4 {
+    background-image: url(../img/monitor-black.png);
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-bottom: 34px;
+    
+}
+
+.description {
+    font-size: 14px;
+    color: #7C7C7C;
+    width: 175px;
+    margin: auto;
+    margin-bottom: 83px;
+
+}
+
+.iconbox:hover {
+    background-color: #00C9CC;
+    color: white;
+}
+
+.iconbox:hover .description {
+    color: #ffffff;
+}
+
+.iconbox:hover .icon1 {
+    background-image: url(../img/anchor-white.png);
+}
+
+.iconbox:hover .icon2 {
+    background-image: url(../img/diamond-white.png);
+}
+
+.iconbox:hover .icon3 {
+    background-image: url(../img/eyeglasses-white.png);
+}
+
+.iconbox:hover .icon4 {
+    background-image: url(../img/monitor-white.png);
+}
